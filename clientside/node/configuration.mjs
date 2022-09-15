@@ -9,6 +9,6 @@ export const configuration = {
     },
     SERVER: '',
   },
-    SDK_BASE_PATH: "http://localhost:8443",
-    //  SDK_BASE_PATH: '',
+    // SDK_BASE_PATH: "http://localhost:8443",
+      SDK_BASE_PATH: '',
 }

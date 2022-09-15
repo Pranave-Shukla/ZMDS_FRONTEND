@@ -116,7 +116,6 @@ var CustomerApi = /** @class */ (function (_super) {
      * Customers list
      */
     CustomerApi.prototype.getCustomersRaw = function (requestParameters) {
-      
         return __awaiter(this, void 0, void 0, function () {
             var queryParameters, headerParameters, response;
             return __generator(this, function (_a) {

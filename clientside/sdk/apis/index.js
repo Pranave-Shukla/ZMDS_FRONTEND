@@ -4,9 +4,9 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./AuditApi"));
- __export(require("./CustomerApi"));
+__export(require("./CustomerApi"));
 __export(require("./CustomerLookupApi"));
 __export(require("./DictionaryApi"));
 __export(require("./ProductApi"));
 __export(require("./SourceSystemApi"));
- __export(require("./UserApi"));
+__export(require("./UserApi"));

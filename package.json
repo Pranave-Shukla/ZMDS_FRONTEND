@@ -8,7 +8,7 @@
     "srv:dev": "cd clientside && npm run srv:dev",
     "srv:mock": "cd clientside && npm run srv:mock"
   },
-  
   "author": "Bluesoft",
   "license": "ISC"
 }
+
