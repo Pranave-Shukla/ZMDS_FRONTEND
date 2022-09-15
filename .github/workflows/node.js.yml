@@ -30,3 +30,9 @@ jobs:
       working-directory: clientside
     - run: npm run build 
       working-directory: clientside
+      
+    - name:  Artifact GitHub Action
+      uses: actions/upload-artifact@v2
+      with: 
+          name: download_Build
+          path: \a\ZMDS_FRONTEND_QA\ZMDS_FRONTEND_QA\clientside\build\
