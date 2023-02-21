@@ -28,9 +28,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: ./init.sh 
-      working-directory: api-generator
+      working-directory: \a\ZMDS_FRONTEND\ZMDS_FRONTEND\tools\api-generator
     - run: ./gen_sdk.sh
-      working-directory: api-generator
+      working-directory: \a\ZMDS_FRONTEND\ZMDS_FRONTEND\tools\api-generator
     - run: npm install 
       working-directory: clientside
     - run: npm run build 
